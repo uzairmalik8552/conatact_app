@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "./withRouter";
 
 class AddContact extends React.Component {
   // This the state
@@ -7,6 +8,12 @@ class AddContact extends React.Component {
     email: "",
     phno: "",
   };
+
+  // //programaticaly navigate in class
+  // navigateTo = (path) => {
+  //   const navigate = useNavigate();
+  //   navigate(path);
+  // };
 
   add = (e) => {
     // we dont want our page to refresh so we are using preventdefault
@@ -19,9 +26,12 @@ class AddContact extends React.Component {
       alert("All fields are mandatory");
       return;
     }
+
     //  in this we have passed the state valuesfrom child to parent
     this.props.addContactHandler(this.state);
     this.setState({ name: "", email: "", phno: "" });
+    this.props.router.navigate("/");
+    // this.handleClick("/");
   };
 
   render() {
@@ -67,4 +77,4 @@ class AddContact extends React.Component {
   }
 }
 
-export default AddContact;
+export default withRouter(AddContact);
