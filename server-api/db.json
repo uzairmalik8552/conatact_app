@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "d3d37c3a-85d6-4195-9429-e0fb568ef032",
+      "name": "Shama parveen ",
+      "email": "shamaparveen@gmail.com",
+      "phno": "8946065479"
+    },
+    {
+      "id": "80480d9c-a926-4d82-a698-adef39d04c26",
+      "name": "Mohammad UZeir",
+      "email": "uzairmalik8552@gmail.com",
+      "phno": "07604876588"
+    }
+  ]
+}
