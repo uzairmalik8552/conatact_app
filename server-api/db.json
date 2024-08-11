@@ -1,0 +1,22 @@
+{
+  "contacts": [
+    {
+      "id": "99a79502-bf46-4f17-8451-2d1181f84c2b",
+      "name": "Mohammad UZeir",
+      "email": "uzairmalik8552@gmail.com",
+      "phno": "07604876588"
+    },
+    {
+      "id": "cec839e0-8791-444b-9156-eaa220fb591d",
+      "name": "Mohammad UZeir",
+      "email": "uzairmalik8552@gmail.com",
+      "phno": "07604876588"
+    },
+    {
+      "id": "3c427cf5-1897-42d9-8a81-003d54249c1b",
+      "name": "sandhya",
+      "email": "uzairmalik8552@gmail.com",
+      "phno": "8904876588"
+    }
+  ]
+}
